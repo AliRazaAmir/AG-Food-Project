@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-section{
+    background-color: #068042;
+   
+}
+
+.icon-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+.call-us{
+    margin-top: 15px;
+}
+hr{
+    color: white;
+    
+}
+/*--------------------- Header Section------------ */
+
+.main-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+    background-color: #068042;
+
+  }
+  
+ 
+    #logo a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 3rem;
+    width: 100px;
+    
+    
+  }
+  
+
+  /* -----------------------hamburger code--------------- */
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 3rem;
+    height: 3rem;
+    display: none;
+    margin-right: 2rem;
+  }
+  .hamburger span {
+    background-color: white;
+    width: 100%;
+    height: 3px;
+  }
+  /* -----------------------hamburger code--------------- */
+  
+  .main-header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  .main-header ul li a {
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    
+  }
+  .main-header ul li a:hover {
+    color: white;
+    border-radius: 4px;
+    transform: scale(2);
+  }
+  
+  /* -----------------------side drawer code--------------- */
+  #side-drawer {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+  }
+  #side-drawer ul {
+    list-style: none;
+    margin: 0;
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  #side-drawer ul li {
+    margin: 1rem;
+  }
+  #side-drawer a {
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+  }
+  #side-drawer a:hover {
+    color: red;
+  }
+  #side-drawer:target {
+    display: block;
+  }
+  
+  #side-drawer header {
+    display: flex;
+    align-items: center;
+    padding: 2rem 5rem;
+  }
+  
+  /* -----------------------Hero Section code--------------- */
+
+
+.hero-section {
+    background-image: url('bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+.container-content{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.first-text{
+margin-top: 20%;
+
+}
+.container-content h1{
+    font-size: 84px;
+    font-weight: 900;
+    line-height: 2;
+    white-space: 10;
+}
+  /* -----------------------Hero Section code--------------- */
+
+.second-section{
+background-color:#F6F6F6 ;
+padding: 20px;
+}
+.container-second h3{
+font-size: 32px;
+}
+.container-second h2{
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 2;
+    white-space: 10;
+}
+  /* -----------------------3rd Section code--------------- */
+.three-sec{
+background-color:#F6F6F6 ;
+
+}
+.section-three{
+    border-radius: 10px;
+    /* margin-top: 50px; */
+    /* margin-bottom: 50px; */
+    background-image: url('back.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding: 20px;
+}
+.container-third{
+    display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.container-third h2 {
+font-weight: 600;
+font-size: 36px;
+}
+.container-third .img{
+margin-left: 80px;
+}
+  /* -----------------------4th Section code--------------- */
+  .video {
+	position: relative;
+	width: 100%;
+	height: 700px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	
+}
+
+.background-video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.caption {
+	z-index: 1;
+	color: #fff;
+	text-align: center;
+}
+  /* -----------------------5th Section code--------------- */
+
+.img-banner{
+    width: 100%;
+    height: 700px;
+}
+  /* -----------------------6th Section code--------------- */
+
+.content{
+    text-align: center;
+    margin-top: 50px;
+}
+.content h2{
+    color: #068042;
+    font-size:48px ;
+    font-weight: 600;
+}
+.video-info {
+	position: relative;
+	width: 80%;
+    margin: auto;
+	height: 700px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	
+}
+
+.info-video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 80%;
+	height: 100%;
+	object-fit: cover;
+}
+  /* -----------------------7th Section code--------------- */
+
+.sec-seven{
+    margin-top: 50px;
+}
+  /* -----------------------8th Section code--------------- */
+
+
+footer{
+    background-color: #068042;
+    height: 60px;
+    width: 100%;
+    margin-top: 50px;
+
+}
+footer p{
+    text-align: center;
+    padding: 20px;
+
+}
+@media (max-width: 992px) {
+    .main-header ul {
+      display: none;
+    }
+    .hamburger {
+      display: flex;
+    }
+
+
+}
+
+
+@media (max-width: 768px) {
+    .main-header ul {
+      display: none;
+    }
+    .hamburger {
+      display: flex;
+    }
+    /* ----------first-section -------- */
+    .center{
+        text-align: center;
+    }
+    /* ----------Hero-section -------- */
+
+    .container-content{
+        text-align: center;
+    }
+    .hero-image{
+        width: 400px;
+    }
+    /* ----------3rd-section -------- */
+.second-section{
+    text-align: center;
+}
+.img{
+    display: none;
+}
+.sec-seven{
+    text-align: center;
+
+}
+}
+
+
+
+@media (max-width: 480) {
+    .main-header ul {
+      display: none;
+    }
+    .hamburger {
+      display: flex;
+    }
+    /* ----------first-section -------- */
+
+    .center{
+        text-align: center;
+    }
+    /* ----------Hero-section -------- */
+
+    .container-content{
+        text-align: center;
+    }
+    .hero-image{
+        width: 400px;
+    }
+    /* ----------Second-section -------- */
+
+    .second-section{
+        text-align: center;
+    }
+    /* ----------4th-section -------- */
+
+    .img{
+        display: none;
+    }
+    /* ----------7th-section -------- */
+
+    .sec-seven{
+        text-align: center;
+    
+    }
+}
